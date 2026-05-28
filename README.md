@@ -126,6 +126,19 @@ make test-uci
 
 ---
 
+## Przydatne materiały
+
+Na początek warto sprawdzić architektury obecnych silników szachowych.
+
+- [LeelaChessZero/lc0: Open source neural network chess engine with GPU acceleration and broad hardware support.](https://github.com/LeelaChessZero/lc0)
+- [1712.01815](https://arxiv.org/pdf/1712.01815)
+- [1712.01815](https://arxiv.org/pdf/1712.01815) [Engine Features & Architecture | official-stockfish/stockfish-web | DeepWiki](https://deepwiki.com/official-stockfish/stockfish-web/5.1-engine-features-and-architecture)
+
+Zauważycie że silniki składają się z dwóch części, algorytmu przeszukiwania drzewa gry i ewaluacji pozycji. Obydwa możecie próbować usprawnić na różne sposoby, pamiętajcie też że wydajność algorytmu ma znaczenie, ponieważ czas gry jest ograniczony.
+
+---
+
+
 ## Pomoc techniczna
 
 **Problem z uprawnieniami Dockera na Linuxie?** Wykonaj:
